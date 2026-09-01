@@ -11,12 +11,13 @@ header{
 }
 main{
   display: flex;
+  flex-wrap: wrap;
   background: white;
   color: #183c63;
   text-align: center;
   max-width: 800px;
-  margin-top: 16px;
-  font-family: "Chicle", serif;
+  margin: 0 auto;
+  font-family: "Jersey 10", sans-serif;
   font-weight: 300;
 
 }
@@ -29,8 +30,13 @@ img{
 }
 article {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
   border: 1px solid #183c63;
   margin: 16px;
   gap: 16px;
   padding: 16px;
+  flex: 1 1 25%;
 }
