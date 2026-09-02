@@ -40,3 +40,6 @@ article {
   padding: 16px;
   flex: 1 1 25%;
 }
+.tema-escuro{
+  background:#151428;
+  color:#ffffff;
