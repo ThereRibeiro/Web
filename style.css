@@ -46,7 +46,7 @@ article {
 
 
 .tema-escuro{
-  background: #121212;;
+  background:#151428;
   color: #FFFFFF;
 }
 .btn-tema-escuro {
@@ -55,7 +55,7 @@ article {
     right: 20px; 
     font-size: 24px; 
     padding: 10px;   
-    background: color #111111;
+    background: color #cccc;
     border-radius: 10%; 
     border: none; 
     cursor: pointer;
