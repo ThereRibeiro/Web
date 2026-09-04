@@ -1,46 +1,62 @@
+* {
+    transition: background-color 0.3s ease;
+}
 header{
-  background: #183c63;
-  color: #fff;
+  background: #183C63;
+  color: #FFFFFF;
   text-align: center;
   max-width: 800px;
   margin: 0 auto;
-  border: 5px solid #CF1010;
   padding: 16px;
-  font-family: "Chicle", serif;
-  font-weight: 300;
+  font-family: "Jersey 10", sans-serif;
 }
 main{
-  display: flex;
+  display:flex;
   flex-wrap: wrap;
-  background: white;
-  color: #183c63;
+  background: #FFFFFF;
+  color: #183C63;
   text-align: center;
   max-width: 800px;
   margin: 0 auto;
+  margin-top: 16px;
   font-family: "Jersey 10", sans-serif;
-  font-weight: 300;
-
+  justify-content: center;
 }
 img{
   width: 80px;
   height: 80px;
+
 }
 .artigo-autor{
-  color: #CF1010;
+  color:#CF1010;
 }
 article {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  border: 1px solid #183c63;
-  margin: 16px;
-  gap: 16px;
-  padding: 16px;
-  flex: 1 1 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid #183C63;
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
+    flex: 1 1 25%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
+
+
 .tema-escuro{
-  background:#cccc;
-  color:#ffffff;
-  
+  background: #151428;
+  color: #FFFFFF;
+}
+.btn-tema-escuro {
+    position: fixed;
+    bottom: 16px;
+    right: 16px; 
+    font-size: 24px; 
+    padding: 12px;   
+    background-color: #CCCCCC;
+    border-radius: 10%; 
+    border: none; 
+    cursor: pointer;
+}
